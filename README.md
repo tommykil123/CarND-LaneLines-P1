@@ -22,15 +22,14 @@ My pipeline consisted of 5 steps.
     3. I applied Canny Edge Detector
     4. I then created a mask to look at bottom center of the images
     5. Finally I used Hough's transform to draw edges
-      
+
+![alt text](test_images_output/solidWhiteCurve.jpg)
+
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by doing the following
     1. Found the slope m of the edges.
     2. Split the edges into two groups, left or right based on the m. The groups are lists that contains list of slope, y-intercept, and length of the edges.
     3. Find the averages for slope and y intercept based on distance of the edges 
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text](test_images_output/solidWhiteCurve.jpg)
 
 ### 2. Identify potential shortcomings with your current pipeline
 
