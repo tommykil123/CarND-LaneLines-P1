@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: (test_images_output/solidWhiteCurve.jpg)
 
 ---
 
@@ -45,11 +45,10 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 One potential shortcoming would be what would happen when the lane lines are dashed lines and not solid. This causes for any outliers that may have been detected to have a huge impact on the draw_lines() function. 
 
-Another shortcoming could be T
+Another shortcoming could be that this pipeline is very fined tuned for specific images. As seen in the challenge, when faced with variety of environment factors such as lighting, shades, and etc, the algorithm fails to detect lane lines.
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Suggest po ssible improvements to your pipeline
 
 A possible improvement would be to look for more stringent slope value of edges to process. 
 
-Another potential improvement could be to ...
